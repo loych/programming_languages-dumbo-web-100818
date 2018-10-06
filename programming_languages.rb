@@ -3,7 +3,7 @@ def reformat_languages(languages)
     languages.each do |key, data|
     data.each do |type, string|
       if type = :type
-      new_hash[:languages][:style] <<  :type
+      new_hash[:languages][:style]<< [:type]
     end
   end
 end
