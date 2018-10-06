@@ -1,4 +1,4 @@
-require "pry"
+
 def reformat_languages(languages)
   new_hash = {}
     languages.each do |key, value|
@@ -8,7 +8,6 @@ def reformat_languages(languages)
     else
       new_hash[form] = type
       new_hash[form][:style] = key
-      
     end
   end
 end
