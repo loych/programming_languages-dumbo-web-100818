@@ -5,7 +5,7 @@ def reformat_languages(languages)
       value.each do |form, type|
       binding.pry
       if type = :type
-      :styple << new_hash[:languages][type]
+      :style << new_hash[:languages][type]
     end
   end
 end
