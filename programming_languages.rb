@@ -4,6 +4,7 @@ def reformat_languages(languages)
     data.each do |type, string|
       if type = :type
       new_hash[:languages][:style] <<  :type
-  
+    end
+  end
 end
 return new_hash
