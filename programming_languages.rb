@@ -40,3 +40,4 @@ new_hash[:oo][:clojure]<< {:style => [:functional]}
 new_hash[:oo][:erlang] << {:style => [:functional]}
 new_hash[:oo][:scala] << {:style => [:functional]}
 end
+reformat_languages(languages)
