@@ -28,7 +28,6 @@ def reformat_languages(languages)
     :javascript => {
       :type => "interpreted"
     }
- 
   }
 }
   }
