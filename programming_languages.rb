@@ -14,4 +14,3 @@ require 'pry'
   end
    new_hash  
 end	
-end
