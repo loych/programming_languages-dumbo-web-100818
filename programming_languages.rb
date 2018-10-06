@@ -5,6 +5,8 @@ def reformat_languages(languages)
       value.each do |form, type|
       if type = :type
       new_hash[form][:style] << key
+    else
+      
     end
   end
 end
