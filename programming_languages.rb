@@ -29,7 +29,7 @@ def reformat_languages(languages)
       :type => "interpreted"
     }
   }
-}
+} =>
   }
 new_hash[:oo][:ruby] << {:style => [:oo]}
 new_hash[:oo][:javascript] << {:style => [:oo, :functional]}
