@@ -40,4 +40,4 @@ new_hash[:oo][:clojure]= {:style => [:functional]}
 new_hash[:oo][:erlang] = {:style => [:functional]}
 new_hash[:oo][:scala] = {:style => [:functional]}
 end
-puts new_hash
+return new_hash
